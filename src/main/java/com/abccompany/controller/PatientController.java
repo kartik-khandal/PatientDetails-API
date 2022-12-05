@@ -26,7 +26,7 @@ public class PatientController {
 	}
 	
 	@DeleteMapping("/delete/{id}")
-	public void deleteStudent(@PathVariable Integer id){
+	public void deletePatientDetails(@PathVariable Integer id){
 		patRepo.deleteById(id);
 			
 }
